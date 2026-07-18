@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Elite Real Estate Group</title>
+  <meta name="description" content="Explore renders and photography from Elite Real Estate Group's residential projects.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- ======================= HEADER ======================= -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand" aria-label="Elite Real Estate Group — Home">
+        <svg viewBox="0 0 100 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="#0B5CFF" d="M34 0h36l26 26v32L76 78H56v16L38 112 22 96V12L34 0Z"/>
+          <rect fill="#FFFFFF" x="40" y="28" width="28" height="28"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">elite</span>
+          <span class="brand-sub">Real Estate Group</span>
+        </span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="nav-phone" href="tel:16245"><i class="fa-solid fa-phone"></i> 16245</a>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span>Gallery</span>
+      </nav>
+      <h1 class="display-2">Gallery</h1>
+      <p>Renders, photography and life inside our communities — filtered your way.</p>
+    </div>
+  </section>
+
+  <!-- ======================= GALLERY ======================= -->
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar mb-4" data-filter-bar data-filter-target="#galleryGrid">
+        <button class="filter-pill active" data-filter="all">All</button>
+        <button class="filter-pill" data-filter="exteriors">Exteriors</button>
+        <button class="filter-pill" data-filter="interiors">Interiors</button>
+        <button class="filter-pill" data-filter="landscape">Landscape</button>
+      </div>
+
+      <div class="masonry" id="galleryGrid">
+        <a class="masonry-item" data-category="exteriors" data-lightbox data-caption="Elite Residence — Facade" data-full="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80" alt="Elite Residence — Facade" loading="lazy">
+          <span class="cap">Elite Residence — Facade</span>
+        </a>
+        <a class="masonry-item" data-category="interiors" data-lightbox data-caption="Living Room — Type C" data-full="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80" alt="Living Room — Type C" loading="lazy">
+          <span class="cap">Living Room — Type C</span>
+        </a>
+        <a class="masonry-item" data-category="exteriors" data-lightbox data-caption="Skyline Towers — Dusk" data-full="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80" alt="Skyline Towers — Dusk" loading="lazy">
+          <span class="cap">Skyline Towers — Dusk</span>
+        </a>
+        <a class="masonry-item" data-category="interiors" data-lightbox data-caption="Kitchen — Show Unit" data-full="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80" alt="Kitchen — Show Unit" loading="lazy">
+          <span class="cap">Kitchen — Show Unit</span>
+        </a>
+        <a class="masonry-item" data-category="landscape" data-lightbox data-caption="Central Courtyard" data-full="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80" alt="Central Courtyard" loading="lazy">
+          <span class="cap">Central Courtyard</span>
+        </a>
+        <a class="masonry-item" data-category="interiors" data-lightbox data-caption="Master Bedroom" data-full="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=900&q=80" alt="Master Bedroom" loading="lazy">
+          <span class="cap">Master Bedroom</span>
+        </a>
+        <a class="masonry-item" data-category="exteriors" data-lightbox data-caption="The Courtyards — Walkways" data-full="https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=900&q=80" alt="The Courtyards — Walkways" loading="lazy">
+          <span class="cap">The Courtyards — Walkways</span>
+        </a>
+        <a class="masonry-item" data-category="landscape" data-lightbox data-caption="Azure Bay — Coastline" data-full="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80" alt="Azure Bay — Coastline" loading="lazy">
+          <span class="cap">Azure Bay — Coastline</span>
+        </a>
+        <a class="masonry-item" data-category="interiors" data-lightbox data-caption="Lobby — Skyline Towers" data-full="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80" alt="Lobby — Skyline Towers" loading="lazy">
+          <span class="cap">Lobby — Skyline Towers</span>
+        </a>
+        <a class="masonry-item" data-category="exteriors" data-lightbox data-caption="Green Terraces — Park Spine" data-full="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=900&q=80" alt="Green Terraces — Park Spine" loading="lazy">
+          <span class="cap">Green Terraces — Park Spine</span>
+        </a>
+        <a class="masonry-item" data-category="interiors" data-lightbox data-caption="Dining Area — Type B" data-full="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=900&q=80" alt="Dining Area — Type B" loading="lazy">
+          <span class="cap">Dining Area — Type B</span>
+        </a>
+        <a class="masonry-item" data-category="landscape" data-lightbox data-caption="Evening at Elite Residence" data-full="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1800&q=80">
+          <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80" alt="Evening at Elite Residence" loading="lazy">
+          <span class="cap">Evening at Elite Residence</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= CONTACT BANNER ======================= -->
+  <section class="contact-banner">
+    <div class="container contact-banner-inner">
+      <div>
+        <h2>Like what you see?</h2>
+        <p>Book a visit to a show unit and experience the finishes in person.</p>
+      </div>
+      <a href="contact.html" class="btn btn-white btn-lg">Book a Show Unit Visit</a>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" role="dialog" aria-label="Image viewer">
+    <button class="lightbox-close" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+    <img src="" alt="Gallery image">
+    <button class="lightbox-next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="lightbox-caption"></div>
+  </div>
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="index.html" class="brand" aria-label="Elite Real Estate Group — Home">
+            <svg style="height:42px;width:auto;" viewBox="0 0 100 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="#0B5CFF" d="M34 0h36l26 26v32L76 78H56v16L38 112 22 96V12L34 0Z"/>
+          <rect fill="#0D1117" x="40" y="28" width="28" height="28"/>
+        </svg>
+            <span class="brand-text">
+              <span class="brand-name">elite</span>
+              <span class="brand-sub">Real Estate Group</span>
+            </span>
+          </a>
+          <p>A private residential developer creating premium, design-led communities across Egypt since 2009.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Projects</h4>
+          <ul>
+            <li><a href="project-details.html">Elite Residence</a></li>
+            <li><a href="projects.html">Skyline Towers</a></li>
+            <li><a href="projects.html">The Courtyards</a></li>
+            <li><a href="projects.html">Green Terraces</a></li>
+            <li><a href="projects.html">Azure Bay</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li class="contact-line"><i class="fa-solid fa-location-dot"></i> Elite HQ, 90th Street,<br>Fifth Settlement, New Cairo</li>
+            <li class="contact-line"><i class="fa-solid fa-phone"></i> Hotline: 16245</li>
+            <li class="contact-line"><i class="fa-brands fa-whatsapp"></i> +20 100 000 0000</li>
+            <li class="contact-line"><i class="fa-solid fa-envelope"></i> sales@eliteregroup.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Elite Real Estate Group. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating actions -->
+  <a href="https://wa.me/201000000000" class="float-whatsapp" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Elite Real Estate Group</title>
+  <meta name="description" content="Contact Elite Real Estate Group's sales team by phone, WhatsApp, email or visit our headquarters.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- ======================= HEADER ======================= -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand" aria-label="Elite Real Estate Group — Home">
+        <svg viewBox="0 0 100 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="#0B5CFF" d="M34 0h36l26 26v32L76 78H56v16L38 112 22 96V12L34 0Z"/>
+          <rect fill="#FFFFFF" x="40" y="28" width="28" height="28"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">elite</span>
+          <span class="brand-sub">Real Estate Group</span>
+        </span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="nav-phone" href="tel:16245"><i class="fa-solid fa-phone"></i> 16245</a>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span>Contact</span>
+      </nav>
+      <h1 class="display-2">Let's talk about your next home</h1>
+      <p>Call, message or visit — our advisors are ready to help you find the right unit.</p>
+    </div>
+  </section>
+
+  <!-- ======================= CONTACT CARDS ======================= -->
+  <section class="section" style="padding-bottom:0;">
+    <div class="container grid grid-4">
+      <div class="contact-info-card reveal">
+        <div class="cic-icon"><i class="fa-solid fa-phone"></i></div>
+        <div><h3>Call Us</h3><a href="tel:16245">Hotline 16245</a><br><a href="tel:+20221234567">+20 2 2123 4567</a></div>
+      </div>
+      <div class="contact-info-card reveal reveal-delay-1">
+        <div class="cic-icon"><i class="fa-brands fa-whatsapp"></i></div>
+        <div><h3>WhatsApp</h3><a href="https://wa.me/201000000000">+20 100 000 0000</a><p>Replies within minutes</p></div>
+      </div>
+      <div class="contact-info-card reveal reveal-delay-2">
+        <div class="cic-icon"><i class="fa-solid fa-envelope"></i></div>
+        <div><h3>Email</h3><a href="mailto:sales@eliteregroup.com">sales@eliteregroup.com</a><p>For sales & partnerships</p></div>
+      </div>
+      <div class="contact-info-card reveal reveal-delay-3">
+        <div class="cic-icon"><i class="fa-solid fa-location-dot"></i></div>
+        <div><h3>Head Office</h3><p>Elite HQ, 90th Street,<br>Fifth Settlement, New Cairo</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= FORM + HOURS ======================= -->
+  <section class="section">
+    <div class="container contact-form-layout" style="display:grid;grid-template-columns:1.5fr 1fr;gap:3rem;align-items:start;">
+      <div class="reveal">
+        <span class="eyebrow">Send a Message</span>
+        <h2 class="display-2" style="font-size:clamp(1.7rem,3vw,2.4rem);">We'll get back to you within one business day</h2>
+        <form class="form-grid mt-4" data-prototype>
+          <div class="form-field"><label for="c-name">Full Name</label><input id="c-name" type="text" placeholder="Your name" required></div>
+          <div class="form-field"><label for="c-phone">Phone</label><input id="c-phone" type="tel" placeholder="+20 1X XXX XXXX" required></div>
+          <div class="form-field"><label for="c-email">Email</label><input id="c-email" type="email" placeholder="you@example.com"></div>
+          <div class="form-field">
+            <label for="c-topic">I'm interested in</label>
+            <select id="c-topic">
+              <option>Elite Residence — New Cairo</option>
+              <option>Skyline Towers — Sheikh Zayed</option>
+              <option>The Courtyards — 6th of October</option>
+              <option>Green Terraces — Mostakbal City</option>
+              <option>Azure Bay — North Coast</option>
+              <option>General inquiry</option>
+            </select>
+          </div>
+          <div class="form-field full"><label for="c-msg">Message</label><textarea id="c-msg" placeholder="How can we help?" required></textarea></div>
+          <div class="full">
+            <button type="submit" class="btn btn-primary btn-lg">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            <p class="form-note mt-2">By submitting, you agree to be contacted by our sales team. We never share your data.</p>
+            <div class="form-success"><i class="fa-solid fa-circle-check"></i> Message sent! Our team will reach out to you shortly.</div>
+          </div>
+        </form>
+      </div>
+
+      <div class="sidebar-card reveal reveal-delay-1">
+        <h3><i class="fa-regular fa-clock text-blue"></i>&nbsp; Business Hours</h3>
+        <table class="hours-table">
+          <tr><td>Sunday – Thursday</td><td>9:00 AM – 6:00 PM</td></tr>
+          <tr><td>Saturday</td><td>10:00 AM – 4:00 PM</td></tr>
+          <tr><td>Friday</td><td class="closed">Closed</td></tr>
+        </table>
+        <hr style="border:none;border-top:1px solid var(--gray-100);margin:1.4rem 0;">
+        <h3><i class="fa-brands fa-whatsapp text-blue"></i>&nbsp; Outside hours?</h3>
+        <p class="text-muted" style="font-size:.93rem;">WhatsApp is monitored daily from 9 AM to 11 PM, including weekends.</p>
+        <a href="https://wa.me/201000000000" class="btn btn-whatsapp mt-3" style="width:100%;"><i class="fa-brands fa-whatsapp"></i> Chat Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= MAP ======================= -->
+  <section class="section" style="padding-top:0;">
+    <div class="container reveal">
+      <div class="map-placeholder">
+        <div class="map-pin">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Elite Real Estate Group — Head Office</p>
+          <small>Interactive Google Map will be embedded here</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="index.html" class="brand" aria-label="Elite Real Estate Group — Home">
+            <svg style="height:42px;width:auto;" viewBox="0 0 100 116" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path fill="#0B5CFF" d="M34 0h36l26 26v32L76 78H56v16L38 112 22 96V12L34 0Z"/>
+          <rect fill="#0D1117" x="40" y="28" width="28" height="28"/>
+        </svg>
+            <span class="brand-text">
+              <span class="brand-name">elite</span>
+              <span class="brand-sub">Real Estate Group</span>
+            </span>
+          </a>
+          <p>A private residential developer creating premium, design-led communities across Egypt since 2009.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Projects</h4>
+          <ul>
+            <li><a href="project-details.html">Elite Residence</a></li>
+            <li><a href="projects.html">Skyline Towers</a></li>
+            <li><a href="projects.html">The Courtyards</a></li>
+            <li><a href="projects.html">Green Terraces</a></li>
+            <li><a href="projects.html">Azure Bay</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li class="contact-line"><i class="fa-solid fa-location-dot"></i> Elite HQ, 90th Street,<br>Fifth Settlement, New Cairo</li>
+            <li class="contact-line"><i class="fa-solid fa-phone"></i> Hotline: 16245</li>
+            <li class="contact-line"><i class="fa-brands fa-whatsapp"></i> +20 100 000 0000</li>
+            <li class="contact-line"><i class="fa-solid fa-envelope"></i> sales@eliteregroup.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Elite Real Estate Group. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating actions -->
+  <a href="https://wa.me/201000000000" class="float-whatsapp" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
